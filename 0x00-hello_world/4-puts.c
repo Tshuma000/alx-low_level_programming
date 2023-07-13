@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints a sentence with puts function followed by a new line
- * return: 0
- * 
+ * main - prints a sentence with puts function followed by a
+ new line
+ * Return: 0
+ *
  */
 
 int main(void)
