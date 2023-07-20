@@ -2,7 +2,7 @@
 
 #define MAIN_H
 
-#include <stdi0.h>
+#include <stdio.h>
 
 int largest_number(int a, int b, int c);
 
