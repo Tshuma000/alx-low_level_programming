@@ -23,7 +23,7 @@ void puts2(char *str)
 		} else if (i % 2 == 0)
 		{
 			_putchar(str[i]);
-		} else 
+		} else
 		{
 			continue;
 		}
