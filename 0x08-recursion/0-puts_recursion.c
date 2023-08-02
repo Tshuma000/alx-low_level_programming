@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - recursive function to print to screen.
  *
- *@: pointer to the string.
+ *@s: pointer to the string.
  *
  * Return: nothing
  */
