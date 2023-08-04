@@ -1,1 +1,1 @@
-Static library README.md file
+Static library REAME.md file
