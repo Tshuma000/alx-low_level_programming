@@ -12,7 +12,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	int numbers, j = 0, k;
+	int numbers, j = 0;
 	va_list myNumbers;
 
 	va_start(myNumbers, n);
@@ -27,11 +27,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		if (i < n - 1)
 		{
 			if (separator != NULL)
-			{
-				for (k = 0; k < j; k++)
-					printf("%c", separator[k]);
-			}
+				printf("%s", separator);
 		}
 	}
 	printf("\n");
+	va_end(myNumbers);
 }
