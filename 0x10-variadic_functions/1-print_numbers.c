@@ -18,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_start(myNumbers, n);
 	if (n == 0)
 		return;
-	while(separator[j])
+	while (separator[j])
 		j++;
 	for (i = 0; i < n; i++)
 	{
